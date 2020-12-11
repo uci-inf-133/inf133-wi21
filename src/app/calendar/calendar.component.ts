@@ -40,6 +40,7 @@ export class CalendarComponent implements OnInit {
 			"date": calendar_start_date.date(),
 			"weekday": calendar_start_date.weekday(),
 			"dateStr": calendar_start_date.format("MMM D"),
+			"dateStrFull": calendar_start_date.format("ddd MMM D"),
 			"today": calendar_start_date.isSame(moment(), 'day'),
 			"weekend": calendar_start_date.day() == 0 || calendar_start_date.day() == 6, //Saturday or Sunday
 			"events": []
@@ -151,9 +152,6 @@ export class CalendarComponent implements OnInit {
 			calendarI++;
 		}
 	}
-	while(calendar_dates.length > 0) {
-		this.calendar.push(calendar_dates.slice(0, 7));
-		calendar_dates = calendar_dates.slice(7);
-	}
+	this.calendar = calendar_dates;
   }
 }

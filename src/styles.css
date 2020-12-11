@@ -60,23 +60,6 @@ nav {
 	text-align: right;
 }
 
-@media screen and (max-width : 800px)
-{
-	.name > h1 {
-		font-size: 400%;
-	}
-	nav {
-		text-align: left;
-		font-size: 200%;
-	}
-  main {
-  	font-size:200%;
-  }
-  footer {
-  	font-size:200%;
-  }
-}
-
 nav > a {
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
@@ -215,17 +198,15 @@ tbd {
 	color: var(--color-complement-0);
 }
 
-.row-eq-height {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
+.table {
+	margin-right: 0px;
+	margin-left: 0px;
 }
 
-.day {
+.table, .day {
 	border-style: solid;
 	border-width: 1px;
-	margin: 1px;
+	border-collapse: collapse;
 }
 
 .today {
