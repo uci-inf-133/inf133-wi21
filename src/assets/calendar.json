@@ -1,0 +1,243 @@
+{
+	"defaults": {
+		"lecture" : {
+			"place": {
+					"time": "11:00",
+					"duration": "80",
+					"label": "Lecture",
+					"location": "Zoom"
+				}
+		},
+		"discussion" : {
+			"place": [
+				{
+					"time": "15:00",
+					"duration": "50",
+					"location": "Zoom"
+				},
+				{
+					"time": "16:00",
+					"duration": "50",
+					"location": "Zoom"
+				}
+			]
+		},
+		"officehours_daniel": {
+			"place": {
+					"time": "00:00",
+					"duration": "120",
+					"label": "Professor Epstein Office Hours"
+				}
+		},
+		"officehours_lucas": {
+			"place": {
+					"time": "00:00",
+					"duration": "120",
+					"label": "Lucas Office Hours"
+				}
+		},
+		"officehours_jo": {
+			"place": {
+					"time": "00:00",
+					"duration": "120",
+					"label": "Jo Office Hours"
+				}
+		},
+		"assignment" : {
+			"due": "23:59"
+		},
+		"quiz" : {
+			"place": null
+		}
+	},
+	"events" : [
+		{
+			"date": "2021-01-04",
+			"type": "lecture",
+			"title": "Introduction & History"
+		},
+		{
+			"date": "2021-01-06",
+			"type": "lecture",
+			"title": "HTML & Accessibility"
+		},
+		{
+			"date": "2021-01-08",
+			"type": "discussion",
+			"title": "Discussion"
+		},
+		{
+			"date": "2021-01-08",
+			"type": "assignment",
+			"title": "A0",
+			"name": "Getting to Know You, Getting to Know Us",
+			"link": "/assignments/a0"
+		},
+		{
+			"date": "2021-01-11",
+			"type": "lecture",
+			"title": "CSS"
+		},
+		{
+			"date": "2021-01-13",
+			"type": "lecture",
+			"title": "Responsive Design & Javascript 1"
+		},
+		{
+			"date": "2021-01-15",
+			"type": "discussion",
+			"title": "Discussion"
+		},
+		{
+			"date": "2021-01-18",
+			"type": "holiday",
+			"title": "Martin Luther King Day (Observed)"
+		},
+		{
+			"date": "2021-01-20",
+			"type": "lecture",
+			"title": "JavaScript 2"
+		},
+		{
+			"date": "2021-01-22",
+			"type": "assignment",
+			"title": "A1",
+			"name": "Responsive Portfolio in HTML and CSS",
+			"link": "/assignments/a1"
+		},
+		{
+			"date": "2021-01-22",
+			"type": "discussion",
+			"title": "Discussion"
+		},
+		{
+			"date": "2021-01-25",
+			"type": "lecture",
+			"title": "DOM Manipulation & Package Management"
+		},
+		{
+			"date": "2021-01-27",
+			"type": "lecture",
+			"title": "TypeScript & Data Visualization Tools"
+		},
+		{
+			"date": "2021-01-29",
+			"type": "discussion",
+			"title": "Discussion"
+		},
+		{
+			"date": "2021-02-01",
+			"type": "lecture",
+			"title": "AJAX, Fetch, & Promises"
+		},
+		{
+			"date": "2021-02-03",
+			"type": "lecture",
+			"title": "Server-Side Development, Authentication, and Authorization"
+		},
+		{
+			"date": "2021-02-05",
+			"type": "discussion",
+			"title": "Discussion"
+		},
+		{
+			"date": "2021-02-08",
+			"type": "lecture",
+			"title": "Components in Angular"
+		},
+		{
+			"date": "2021-02-10",
+			"type": "assignment",
+			"title": "A2",
+			"name": "Runkeeper Tweet Report in JavaScript and TypeScript"
+		},
+		{
+			"date": "2021-02-10",
+			"type": "lecture",
+			"title": "Separation in Angular & Modeling Human Performance"
+		},
+		{
+			"date": "2021-02-12",
+			"type": "discussion",
+			"title": "Discussion"
+		},
+		{
+			"date": "2021-02-15",
+			"type": "holiday",
+			"title": "President's Day"
+		},
+		{
+			"date": "2021-02-17",
+			"type": "lecture",
+			"title": "Mobile Design Principles & SASS"
+		},
+		{
+			"date": "2021-02-19",
+			"type": "discussion",
+			"title": "Discussion"
+		},
+		{
+			"date": "2021-02-22",
+			"type": "lecture",
+			"title": "Hybrid & Native Architectures"
+		},
+		{
+			"date": "2021-02-24",
+			"type": "lecture",
+			"title": "Ionic Components"
+		},
+		{
+			"date": "2021-02-26",
+			"type": "discussion",
+			"title": "Discussion"
+		},
+		{
+			"date": "2021-02-26",
+			"type": "assignment",
+			"title": "A3",
+			"name": "Spotify Browser in Angular"
+		},
+		{
+			"date": "2021-03-01",
+			"type": "lecture",
+			"title": "Device Resources & Sensors"
+		},
+		{
+			"date": "2021-03-03",
+			"type": "lecture",
+			"title": "Databases and Local Storage"
+		},
+		{
+			"date": "2021-03-05",
+			"type": "discussion",
+			"title": "Discussion"
+		},
+		{
+			"date": "2021-03-08",
+			"type": "lecture",
+			"title": "Beyond Web & Mobile"
+		},
+		{
+			"date": "2021-03-10",
+			"type": "lecture",
+			"title": "Wrap-up"
+		},
+		{
+			"date": "2021-03-12",
+			"type": "discussion",
+			"title": "Discussion"
+		},
+		{
+			"date": "2021-03-12",
+			"type": "assignment",
+			"title": "A4",
+			"name": "Sleep Tracker in Ionic"
+		},
+		{
+			"date": "2021-03-19",
+			"type": "assignment",
+			"title": "A5",
+			"name": "Beyond Web & Mobile"
+		}
+	]
+}

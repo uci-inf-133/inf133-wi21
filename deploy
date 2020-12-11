@@ -1,0 +1,2 @@
+ng build --prod
+npx ngh --dir dist/inf133-wi21 --cname=inf133-wi21.depstein.net
