@@ -24,23 +24,18 @@
 		},
 		"officehours_daniel": {
 			"place": {
-					"time": "00:00",
+					"time": "13:00",
 					"duration": "120",
-					"label": "Professor Epstein Office Hours"
+					"label": "Professor Epstein Office Hours",
+					"location": "Zoom"
 				}
 		},
-		"officehours_lucas": {
+		"officehours_ta": {
 			"place": {
-					"time": "00:00",
+					"time": "11:00",
 					"duration": "120",
-					"label": "Lucas Office Hours"
-				}
-		},
-		"officehours_jo": {
-			"place": {
-					"time": "00:00",
-					"duration": "120",
-					"label": "Jo Office Hours"
+					"label": "TA Office Hours",
+					"location": "Zoom"
 				}
 		},
 		"assignment" : {
@@ -54,17 +49,20 @@
 		{
 			"date": "2021-01-04",
 			"type": "lecture",
-			"title": "Introduction & History"
+			"title": "Introduction & History",
+			"link": "assets/lectures/01_04_21-introduction_history.pdf"
 		},
 		{
 			"date": "2021-01-06",
 			"type": "lecture",
-			"title": "HTML & Accessibility"
+			"title": "HTML & Accessibility",
+			"link": "assets/lectures/01_06_21-html_accessibility.pdf",
+			"demo": "assets/demos/01_06_21-html_accessibility.zip"
 		},
 		{
 			"date": "2021-01-08",
 			"type": "discussion",
-			"title": "Discussion"
+			"title": "Git and GitHub Tutorial (Lucas)"
 		},
 		{
 			"date": "2021-01-08",
@@ -79,6 +77,15 @@
 			"title": "CSS"
 		},
 		{
+			"date": "2021-01-11",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2021-01-12",
+			"type": "officehours_ta",
+			"title": "Lucas Office Hours"
+		},
+		{
 			"date": "2021-01-13",
 			"type": "lecture",
 			"title": "Responsive Design & Javascript 1"
@@ -86,12 +93,24 @@
 		{
 			"date": "2021-01-15",
 			"type": "discussion",
-			"title": "Discussion"
+			"title": "TBD Discussion (Jo)"
 		},
 		{
 			"date": "2021-01-18",
 			"type": "holiday",
-			"title": "Martin Luther King Day (Observed)"
+			"title": "Martin Luther King Day"
+		},
+		{
+			"date": "2021-01-19",
+			"type": "officehours_ta",
+			"title": "Jo Office Hours"
+		},
+		{
+			"date": "2021-01-20",
+			"type": "assignment",
+			"title": "A1",
+			"name": "Responsive Portfolio in HTML and CSS",
+			"link": "/assignments/a1"
 		},
 		{
 			"date": "2021-01-20",
@@ -100,20 +119,22 @@
 		},
 		{
 			"date": "2021-01-22",
-			"type": "assignment",
-			"title": "A1",
-			"name": "Responsive Portfolio in HTML and CSS",
-			"link": "/assignments/a1"
-		},
-		{
-			"date": "2021-01-22",
 			"type": "discussion",
-			"title": "Discussion"
+			"title": "TBD Discussion (Lucas)"
 		},
 		{
 			"date": "2021-01-25",
 			"type": "lecture",
 			"title": "DOM Manipulation & Package Management"
+		},
+		{
+			"date": "2021-01-25",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2021-01-26",
+			"type": "officehours_ta",
+			"title": "Lucas Office Hours"
 		},
 		{
 			"date": "2021-01-27",
@@ -123,12 +144,21 @@
 		{
 			"date": "2021-01-29",
 			"type": "discussion",
-			"title": "Discussion"
+			"title": "TBD Discussion (Jo)"
 		},
 		{
 			"date": "2021-02-01",
 			"type": "lecture",
 			"title": "AJAX, Fetch, & Promises"
+		},
+		{
+			"date": "2021-02-01",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2021-02-02",
+			"type": "officehours_ta",
+			"title": "Jo Office Hours"
 		},
 		{
 			"date": "2021-02-03",
@@ -138,7 +168,13 @@
 		{
 			"date": "2021-02-05",
 			"type": "discussion",
-			"title": "Discussion"
+			"title": "TBD Discussion (Lucas)"
+		},
+		{
+			"date": "2021-02-05",
+			"type": "assignment",
+			"title": "A2",
+			"name": "Runkeeper Tweet Report in JavaScript and TypeScript"
 		},
 		{
 			"date": "2021-02-08",
@@ -146,10 +182,13 @@
 			"title": "Components in Angular"
 		},
 		{
-			"date": "2021-02-10",
-			"type": "assignment",
-			"title": "A2",
-			"name": "Runkeeper Tweet Report in JavaScript and TypeScript"
+			"date": "2021-02-08",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2021-02-09",
+			"type": "officehours_ta",
+			"title": "Lucas Office Hours"
 		},
 		{
 			"date": "2021-02-10",
@@ -159,12 +198,17 @@
 		{
 			"date": "2021-02-12",
 			"type": "discussion",
-			"title": "Discussion"
+			"title": "TBD Discussion (Jo)"
 		},
 		{
 			"date": "2021-02-15",
 			"type": "holiday",
 			"title": "President's Day"
+		},
+		{
+			"date": "2021-02-16",
+			"type": "officehours_ta",
+			"title": "Jo Office Hours"
 		},
 		{
 			"date": "2021-02-17",
@@ -173,13 +217,28 @@
 		},
 		{
 			"date": "2021-02-19",
+			"type": "assignment",
+			"title": "A3",
+			"name": "Spotify Browser in Angular"
+		},
+		{
+			"date": "2021-02-19",
 			"type": "discussion",
-			"title": "Discussion"
+			"title": "TBD Discussion (Lucas)"
 		},
 		{
 			"date": "2021-02-22",
 			"type": "lecture",
 			"title": "Hybrid & Native Architectures"
+		},
+		{
+			"date": "2021-02-22",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2021-02-23",
+			"type": "officehours_ta",
+			"title": "Lucas Office Hours"
 		},
 		{
 			"date": "2021-02-24",
@@ -189,18 +248,21 @@
 		{
 			"date": "2021-02-26",
 			"type": "discussion",
-			"title": "Discussion"
-		},
-		{
-			"date": "2021-02-26",
-			"type": "assignment",
-			"title": "A3",
-			"name": "Spotify Browser in Angular"
+			"title": "TBD Discussion (Jo)"
 		},
 		{
 			"date": "2021-03-01",
 			"type": "lecture",
 			"title": "Device Resources & Sensors"
+		},
+		{
+			"date": "2021-03-01",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2021-03-02",
+			"type": "officehours_ta",
+			"title": "Jo Office Hours"
 		},
 		{
 			"date": "2021-03-03",
@@ -210,12 +272,27 @@
 		{
 			"date": "2021-03-05",
 			"type": "discussion",
-			"title": "Discussion"
+			"title": "TBD Discussion (Lucas)"
+		},
+		{
+			"date": "2021-03-05",
+			"type": "assignment",
+			"title": "A4",
+			"name": "Sleep Tracker in Ionic"
 		},
 		{
 			"date": "2021-03-08",
 			"type": "lecture",
 			"title": "Beyond Web & Mobile"
+		},
+		{
+			"date": "2021-03-08",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2021-03-09",
+			"type": "officehours_ta",
+			"title": "Lucas Office Hours"
 		},
 		{
 			"date": "2021-03-10",
@@ -225,16 +302,10 @@
 		{
 			"date": "2021-03-12",
 			"type": "discussion",
-			"title": "Discussion"
+			"title": "TBD Discussion (Jo)"
 		},
 		{
-			"date": "2021-03-12",
-			"type": "assignment",
-			"title": "A4",
-			"name": "Sleep Tracker in Ionic"
-		},
-		{
-			"date": "2021-03-19",
+			"date": "2021-03-16",
 			"type": "assignment",
 			"title": "A5",
 			"name": "Beyond Web & Mobile"
