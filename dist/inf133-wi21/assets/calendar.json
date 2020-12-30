@@ -5,7 +5,8 @@
 					"time": "11:00",
 					"duration": "80",
 					"label": "Lecture",
-					"location": "Zoom"
+					"location": "Zoom",
+					"link": "https://uci.zoom.us/j/95672409052?pwd=YndsWlpuMGNQTDk2ejdoOWxONHBnQT09"
 				}
 		},
 		"discussion" : {
@@ -13,12 +14,14 @@
 				{
 					"time": "15:00",
 					"duration": "50",
-					"location": "Zoom"
+					"location": "Zoom",
+					"link": "https://uci.zoom.us/j/96300347756?pwd=SnVWazJINnlSenUrUXd1NXUvbG1KUT09"
 				},
 				{
 					"time": "16:00",
 					"duration": "50",
-					"location": "Zoom"
+					"location": "Zoom",
+					"link": "https://uci.zoom.us/j/96300347756?pwd=SnVWazJINnlSenUrUXd1NXUvbG1KUT09"
 				}
 			]
 		},
@@ -27,7 +30,8 @@
 					"time": "13:00",
 					"duration": "120",
 					"label": "Professor Epstein Office Hours",
-					"location": "Zoom"
+					"location": "Zoom",
+					"link": "https://uci.zoom.us/j/91089421153?pwd=Z1BLRFFVUE5FY1MxVTR1Zy9qN1pXZz09"
 				}
 		},
 		"officehours_ta": {
@@ -35,7 +39,8 @@
 					"time": "11:00",
 					"duration": "120",
 					"label": "TA Office Hours",
-					"location": "Zoom"
+					"location": "Zoom",
+					"link": "https://uci.zoom.us/j/92380239217?pwd=eHczNjZYbzMxVzd6QW41aHBQOFA1UT09"
 				}
 		},
 		"assignment" : {

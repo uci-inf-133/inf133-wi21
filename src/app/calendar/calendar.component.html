@@ -14,7 +14,11 @@
 					<a *ngIf="event.link" [href]="event.link" target="_blank">{{event.title}}</a>
 					<span *ngIf="!event.link">{{event.title}}</span>
 				</div>
-				<div *ngFor="let place of event.places">{{place.timeStr}} | {{place.location}}</div>
+				<div *ngFor="let place of event.places">
+					<span>{{place.timeStr}} | </span>
+					<span *ngIf="place.link"><a [href]="place.link">{{place.location}}</a></span>
+					<span *ngIf="!place.link">{{place.location}}</span>
+				</div>
 				<div *ngIf="event.demo"><a [href]="event.demo">demo code</a></div>
 				<div *ngIf="event.recording"><a [href]="event.recording" target="_blank">lecture recording</a></div>
 			</div>
@@ -25,7 +29,11 @@
 				<div class="title" *ngIf="!event.title">
 					{{event.label}}
 				</div>
-				<div *ngFor="let place of event.places">{{place.timeStr}} | {{place.location}}</div>
+				<div *ngFor="let place of event.places">
+					<span>{{place.timeStr}} | </span>
+					<span *ngIf="place.link"><a [href]="place.link">{{place.location}}</a></span>
+					<span *ngIf="!place.link">{{place.location}}</span>
+				</div>
 			</div>
 			<div *ngIf="event.type == 'holiday' || event.type == 'absence'" class="event {{event.type}}">
 				<div class="title">

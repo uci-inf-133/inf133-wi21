@@ -76,7 +76,8 @@ export class CalendarComponent implements OnInit {
 						}
 						return {
 							"timeStr": start_time.format("h:mm") + "-" + end_time.format("h:mm"),
-							"location": place.location
+							"location": place.location,
+							"link": place.link ? place.link : null
 						};
 					});
 				} else if(!calendar['defaults'][event.type]["place"]) {
@@ -95,6 +96,7 @@ export class CalendarComponent implements OnInit {
 						ev.places.push({
 							"timeStr": [start_time.format("h:mm") + "-" + end_time.format("h:mm")],
 							"location": [loc],
+							"link": place.link ? place.link : null
 						});
 					}
 				} else {
@@ -114,6 +116,7 @@ export class CalendarComponent implements OnInit {
 					ev.places.push({
 						"timeStr": [start_time.format("h:mm") + "-" + end_time.format("h:mm")],
 						"location": [loc],
+						"link": place.link ? place.link : null
 					});
 					ev["label"] = place.label;
 				}
