@@ -16,7 +16,7 @@ const routes: Routes = [
 	{ path: 'resources', component: ResourcesComponent},
 	{ path: 'calendar', component: CalendarComponent},
 	{ path: 'assignments/a0', component: A0Component},
-	{ path: 'assignments/a1', component: A1Component},
+	{ path: 'assignments/a1', component: A1Component}
 ];
 
 @NgModule({
