@@ -18,7 +18,6 @@ import { A4Component } from './a4/a4.component';
 import { SyllabusComponent } from './syllabus/syllabus.component';
 import { ResourcesComponent } from './resources/resources.component';
 import { CalendarComponent } from './calendar/calendar.component';
-import { QuestionsComponent } from './questions/questions.component';
 import { A5Component } from './a5/a5.component';
 
 @NgModule({
@@ -36,7 +35,6 @@ import { A5Component } from './a5/a5.component';
     SyllabusComponent,
     ResourcesComponent,
     CalendarComponent,
-    QuestionsComponent,
     A5Component
   ],
   imports: [

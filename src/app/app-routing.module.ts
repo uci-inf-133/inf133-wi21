@@ -6,7 +6,6 @@ import { AssignmentsComponent } from './assignments/assignments.component';
 import { SyllabusComponent } from './syllabus/syllabus.component';
 import { ResourcesComponent } from './resources/resources.component';
 import { CalendarComponent } from './calendar/calendar.component';
-import { QuestionsComponent } from './questions/questions.component';
 import { A0Component } from './a0/a0.component';
 import { A1Component } from './a1/a1.component';
 
@@ -16,7 +15,6 @@ const routes: Routes = [
 	{ path: 'syllabus', component: SyllabusComponent},
 	{ path: 'resources', component: ResourcesComponent},
 	{ path: 'calendar', component: CalendarComponent},
-	{ path: 'questions', component: QuestionsComponent},
 	{ path: 'assignments/a0', component: A0Component},
 	{ path: 'assignments/a1', component: A1Component},
 ];
