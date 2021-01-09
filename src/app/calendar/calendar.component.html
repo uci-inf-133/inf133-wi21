@@ -19,8 +19,8 @@
 					<span *ngIf="place.link"><a [href]="place.link">{{place.location}}</a></span>
 					<span *ngIf="!place.link">{{place.location}}</span>
 				</div>
-				<div *ngIf="event.demo"><a [href]="event.demo">demo code</a></div>
-				<div *ngIf="event.recording"><a [href]="event.recording" target="_blank">lecture recording</a></div>
+				<div *ngIf="event.demo"><a [href]="event.demo">Demo Code</a></div>
+				<div *ngIf="event.recording"><a [href]="event.recording" target="_blank">Recording</a></div>
 			</div>
 			<div *ngIf="event.type == 'officehours_daniel' || event.type == 'officehours_ta'" class="event {{event.type}}">
 				<div class="title" *ngIf="event.title">
