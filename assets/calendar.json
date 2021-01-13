@@ -102,7 +102,8 @@
 			"type": "lecture",
 			"title": "Responsive Design & Javascript 1",
 			"link": "assets/lectures/01-13_21-responsive_javascript.pdf",
-			"demo": "assets/demos/01_13_21-responsive_javascript.zip"
+			"demo": "assets/demos/01_13_21-responsive_javascript.zip",
+			"recording": "https://uci.zoom.us/rec/share/STmuZRFb0jLdAM7jcDV17n_IDBNkjX2LXzm9A5usw30xM9LWdF7VOGe6f1wl7mYi.29sX02_Q3qMOcNZ5?startTime=1610563824000"
 		},
 		{
 			"date": "2021-01-15",
