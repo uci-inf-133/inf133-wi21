@@ -8,6 +8,7 @@ import { ResourcesComponent } from './resources/resources.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { A0Component } from './a0/a0.component';
 import { A1Component } from './a1/a1.component';
+import { A2Component } from './a2/a2.component';
 
 const routes: Routes = [
 	{ path: '', component: HomepageComponent},
@@ -16,7 +17,8 @@ const routes: Routes = [
 	{ path: 'resources', component: ResourcesComponent},
 	{ path: 'calendar', component: CalendarComponent},
 	{ path: 'assignments/a0', component: A0Component},
-	{ path: 'assignments/a1', component: A1Component}
+	{ path: 'assignments/a1', component: A1Component},
+	{ path: 'assignments/a2', component: A2Component}
 ];
 
 @NgModule({
