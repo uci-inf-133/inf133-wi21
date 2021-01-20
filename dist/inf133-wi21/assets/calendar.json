@@ -132,7 +132,8 @@
 			"type": "lecture",
 			"title": "JavaScript 2",
 			"link": "assets/lectures/01_20_21-javascript.pdf",
-			"demo": "assets/demos/01_20_21-javascript.zip"
+			"demo": "assets/demos/01_20_21-javascript.zip",
+			"recording": "https://uci.zoom.us/rec/share/ld3XA7nMnpjRcfcwQRFVtfd0VKkXBhzEdofk9ACqNiRxIh_pZqnoqiMUrTuGMjan.-7idYcstTymTvGej?startTime=1611168667000"
 		},
 		{
 			"date": "2021-01-22",
