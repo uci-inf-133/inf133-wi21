@@ -147,7 +147,8 @@
 			"type": "lecture",
 			"title": "DOM Manipulation & Package Management",
 			"link": "assets/lectures/01_25_21-dom_package.pdf",
-			"demo": "assets/demos/01_25_21-dom_package.zip"
+			"demo": "assets/demos/01_25_21-dom_package.zip",
+			"recording":"https://uci.zoom.us/rec/share/9htw2GdY4r4MzBkljcU7aujUX3fuIOnpEWTYY1Sv6TtVlS-t3foYg3HQB9KEISau.VBciY9Fi8LNXYklZ?startTime=1611600347000"
 		},
 		{
 			"date": "2021-01-25",
