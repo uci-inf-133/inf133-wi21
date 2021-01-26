@@ -91,7 +91,7 @@
    <h4>Implementing the search box (1 point)</h4>
    <p>Update the table with the tweet number, activity type. The <em>searchCount</em> and <em>searchText</em> spans should also update as a researcher types in the search box. Your code should check the search box and update the table after every character is entered into the box.</p>
    <h4>Populating the table (2 points)</h4>
-   <p>As the person adds or removes a character from their search, the rows of the table should update. Your code should also clear the table when the search text is an empty string.</p>
+   <p>As the person adds or removes a character from their search, the rows of the table should update. Your code should also clear the table when the search text is an empty string. Your code can search and populate the table from only the user-written tweets, as the commonly-repeated phrases indicative of system-written tweets won't make for very interesting search results.</p>
    <p>The links in the Tweet should also be clickable to allow the researcher to explore the data more. To parse these, use similar strategies to how you parsed the type of activity and identified the tweet category. The <em>getHTMLTableRow()</em> function in the tweet TypeScript class is a good place to parse the tweets and generate clickable links.</p>
    <img src="assets/assignments/a2_search.gif" width="600">
    <h3>Optional/Bonus Features</h3>
