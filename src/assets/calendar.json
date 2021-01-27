@@ -164,7 +164,8 @@
 			"type": "lecture",
 			"title": "TypeScript & Data Visualization Tools",
 			"link": "assets/lectures/01_27_21-typescript_visualization.pdf",
-			"demo": "assets/demos/01_27_21-typescript_visualization.zip"
+			"demo": "assets/demos/01_27_21-typescript_visualization.zip",
+			"recording": "https://uci.zoom.us/rec/share/aUqMi7kqklKaR8aCLSS6hLC6J7Yboxgo9Sc2DjJW8Fz7a0KEg_qO-NwugrwyZj4R.pqg8eSDEC_y-8Gfa?startTime=1611773562000"
 		},
 		{
 			"date": "2021-01-29",
