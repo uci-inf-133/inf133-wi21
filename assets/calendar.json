@@ -180,7 +180,8 @@
 			"type": "lecture",
 			"title": "AJAX, Fetch, & Promises",
 			"link": "assets/lectures/02_01_21-ajax_fetch_promises.pdf",
-			"demo": "assets/demos/02_01_21-ajax_fetch_promises.zip"
+			"demo": "assets/demos/02_01_21-ajax_fetch_promises.zip",
+			"recording": "https://uci.zoom.us/rec/share/tzY-Ox5_OMzL7xgLBDe9hKstAs_to1tc3TPN73MQ1dCQChlFUtEjZaLxoUUdqo2F.zL8-2jZy7GHPkOS_?startTime=1612203595000"
 		},
 		{
 			"date": "2021-02-01",
