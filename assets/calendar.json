@@ -234,7 +234,8 @@
 			"type": "lecture",
 			"title": "Separation in Angular & Modeling Human Performance",
 			"link": "assets/lectures/02_10_21-angular_separation_human_performance.pdf",
-			"demo": "assets/demos/02_10_21-angular_separation_human_performance.zip"
+			"demo": "assets/demos/02_10_21-angular_separation_human_performance.zip",
+			"recording": "https://uci.zoom.us/rec/share/8UiwaAj0DD7DUtpW9Vxc-LmvuSVKIYCkqUcotuf4Ds0VjwCq19HDSj8N7wisd_ku.H4pUOJIEJM1Glypr?startTime=1612983236000"
 		},
 		{
 			"date": "2021-02-12",
@@ -268,7 +269,7 @@
 		{
 			"date": "2021-02-19",
 			"type": "discussion",
-			"title": "TBD Discussion (Lucas)"
+			"title": "Lucas Office Hours"
 		},
 		{
 			"date": "2021-02-22",
