@@ -240,7 +240,10 @@
 		{
 			"date": "2021-02-12",
 			"type": "discussion",
-			"title": "Angular Demo (Jo)"
+			"title": "Angular Demo (Jo)",
+			"link": "assets/discussions/02_12_21-angular.pdf",
+			"demo": "assets/demos/02_12_21-angular.zip",
+			"recording": "https://uci.zoom.us/rec/share/dekX0S1qbFheoGQvceNcIDG1B9xVC7-9kWUCNdO1DF68GG1xFaY1vZqWhwQ59Itf.B3CgwGYyJld5OVny?startTime=1613170749000"
 		},
 		{
 			"date": "2021-02-15",
