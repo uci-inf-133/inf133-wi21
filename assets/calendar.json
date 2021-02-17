@@ -258,9 +258,13 @@
 		{
 			"date": "2021-02-17",
 			"type": "lecture",
-			"title": "Mobile Design Principles & SASS",
-			"link": "assets/lectures/02_17_21-mobile_sass.pdf",
-			"demo": "assets/demos/02_17_21-mobile_sass.zip"
+			"title": "Hybrid & Native Architectures",
+			"link": "assets/lectures/02_17_21-hybrid_native.pdf"
+		},
+		{
+			"date": "2021-02-18",
+			"type": "officehours_daniel",
+			"time": "09:00"
 		},
 		{
 			"date": "2021-02-19",
@@ -277,7 +281,9 @@
 		{
 			"date": "2021-02-22",
 			"type": "lecture",
-			"title": "Hybrid & Native Architectures"
+			"title": "Ionic Components",
+			"link": "assets/lectures/02_22_21-ionic_components.pdf",
+			"demo": "assets/demos/02_22_21-ionic_components.zip"
 		},
 		{
 			"date": "2021-02-22",
@@ -291,7 +297,9 @@
 		{
 			"date": "2021-02-24",
 			"type": "lecture",
-			"title": "Ionic Components"
+			"title": "Mobile Design Principles & SASS",
+			"link": "assets/lectures/02_24_21-mobile_sass.pdf",
+			"demo": "assets/demos/02_24_21-mobile_sass.zip"
 		},
 		{
 			"date": "2021-02-26",
