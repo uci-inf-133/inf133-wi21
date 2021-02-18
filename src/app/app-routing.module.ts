@@ -21,6 +21,7 @@ const routes: Routes = [
 	{ path: 'assignments/a0', component: A0Component},
 	{ path: 'assignments/a1', component: A1Component},
 	{ path: 'assignments/a2', component: A2Component},
+	{ path: 'assignments/a3', component: A3Component},
 	{ path: 'assignments/a4', component: A4Component}
 ];
 
