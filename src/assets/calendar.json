@@ -284,7 +284,8 @@
 			"type": "lecture",
 			"title": "Ionic Components",
 			"link": "assets/lectures/02_22_21-ionic_components.pdf",
-			"demo": "assets/demos/02_22_21-ionic_components.zip"
+			"demo": "assets/demos/02_22_21-ionic_components.zip",
+			"recording": "https://uci.zoom.us/rec/share/2BqiSFzah34Cn-gY6INZ_ZSqu_qTZ1_xl1yxiLNVYMiTe5lvHjaPKBgqF7ORuBQX.TCkK3axxsA6CdFWe?startTime=1614020106000"
 		},
 		{
 			"date": "2021-02-22",
@@ -305,7 +306,7 @@
 		{
 			"date": "2021-02-26",
 			"type": "discussion",
-			"title": "TBD Discussion (Jo)"
+			"title": "Ionic Demo (Lucas)"
 		},
 		{
 			"date": "2021-03-01",
@@ -329,7 +330,7 @@
 		{
 			"date": "2021-03-05",
 			"type": "discussion",
-			"title": "TBD Discussion (Lucas)"
+			"title": "Jo Office Hours"
 		},
 		{
 			"date": "2021-03-05",
@@ -360,7 +361,7 @@
 		{
 			"date": "2021-03-12",
 			"type": "discussion",
-			"title": "TBD Discussion (Jo)"
+			"title": "React Demo (Lucas)"
 		},
 		{
 			"date": "2021-03-16",

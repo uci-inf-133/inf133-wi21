@@ -41,8 +41,8 @@
       <li>The ability to view these two categories of logged data.</li>
       <li>One of the following:</li>
       <ul>
-         <li>Storing data locally or in a database.</li>
          <li>Using a native resource of the device.</li>
+         <li>Storing data locally or in a database.</li>
       </ul>
    </ul>
    <p>It is up to you to decide exactly how your app implements these features. You will be evaluated on inclusion of these features as well as how well your app follows <a href="assets/lectures/02_24_21-mobile_sass.pdf">good principles of mobile design</a>.</p>
@@ -60,7 +60,7 @@
    <h3>Option 1: Using a Native Device Resource</h3>
    <p>You must add a feature which uses a native device resource. The added feature must <em>change the app's experience for a user in a meaningful way</em>. It is not sufficient to read a device's manufacturer and present it back, for example, because that does not change how a user would log or view their sleep. Please contact the course staff if you have any question about what would or would not qualify as a feature.</p>
    <p>Ionic supports a <a href="https://ionicframework.com/docs/native">long list</a> of native device resources. However, some of these are in Cordova, while others are in Capacitor. We recommend sticking to Official, Capacitor plugins. Ionic also supports Premier plugins designed for enterprise applications; do not look into those in this assignment. Each Ionic resource provides instruction on how it should be installed. Make sure you are using the correct version of a plugin.</p>
-   <p>Native resources require installation on your device (or an emulator, depending on the feature). Ionic provides installation guides for <a href="https://ionicframework.com/docs/developing/ios">iOS</a> and for <a href="https://ionicframework.com/docs/developing/android">Android</a>. These installations can be tricky, so if you plan to select this option we <strong>strongly recommend trying to install the app on your device early</strong>.</p>
+   <p>Native resources require installation on your device (or an emulator, depending on the feature). Ionic provides installation guides for <a href="https://ionicframework.com/docs/developing/ios">iOS</a> and for <a href="https://ionicframework.com/docs/developing/android">Android</a>. These installations can be tricky, so if you plan to select this option we <strong>strongly recommend trying to install the app on your device early</strong>. If you're having trouble, online resources could be useful to getting set up. We may be able to help in office hours, but these processes are notoriously fickle. You can also complete this option using just an emulator, if you support native resources which the emulator can provide (like notifications).</p>
    <p>Your native device resource must go beyond reading and displaying a value to actually enhancing the experience of the app. It would, for example, be insufficient to display a "Hello, World!" toast message in response to an interaction or display the accelerometer value on screen. A few suggestions which enhance the experience of the app:</p>
    <ul>
       <li>Send notifications or vibrate the device to remind someone when it is time to journal their sleepiness (a <a href="https://dl.acm.org/citation.cfm?id=2466140">well-studied method</a> for reducing the burden of logging).</li>
