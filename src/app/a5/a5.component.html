@@ -1,1 +1,69 @@
-<h1 class="tbd">TBD</h1>
+<main class="container-fluid" *ngIf="assignment">
+   <h1 class="tbd">In-progress</h1>
+   <h1>{{assignment.title}}: {{assignment.name}}</h1>
+   <h3>Due {{assignment.due}} PST</h3>
+   <p>In this assignment, you'll explore how the interface development principles you have explored in web and mobile interfaces apply to interfaces for other devices by implementing a time zone converter. <a href="https://www.timeanddate.com/worldclock/converter.html">Many</a> <a href="https://www.thetimezoneconverter.com/">websites</a> <a href="http://www.timezoneconverter.com/index.php">already</a> <a href="https://savvytime.com/converter">provide</a> <a href="https://greenwichmeantime.com/time-gadgets/time-zone-converter/">this</a> <a href="https://everytimezone.com/">functionality</a>, but this task is intended to give an overview into how implementation works on a few frameworks for these devices. This assignment is focused on the implementation and interaction with these frameworks, and we have provided functionality to help with the mathematical task of converting time zones.</p>
+   <p><strong>This assignment may be completed in pairs (exactly two students enrolled in the class) or individually.</strong> You may choose your own partner or use Slack to help find one. Because the assignment features build on top of one another, it is recommended that you pair program rather than distribute the assignment features. There is no grade benefit or penalty to completing the assignment individually.</p>
+   <p>By the end of the day on Wednesday, March 10th, please navigate to the "People" tab on Canvas to sign up for an A5 group. Do correspond with your partner while signing up for groups. If you're the first member to join a group, please sign up for the next group that's empty. Keep a note of the Assignment Group Number that you’ve signed up for and add it to your readme file.</p>
+   <p>You will not be able to swap to another group after the 10th. If something happens after you sign up and you decide you're best off working alone (team conflicts, incompatible schedules, etc.), you can disband your group and let the course staff know. However, you will not be able to team up with someone else, even if they do not have a partner. You will need to complete the assignment alone.</p>
+   <h2>Starter code</h2>
+   <p>A starter repository is on <span class="tbd">GitHub Classroom</span>.</p>
+   <h3>Repository structure</h3>
+   <p>Unlike previous assignments, you might not end up developing your code in your starter repository, but a few files are included to help you get started and to scaffold submission of your assignment. The included files are:</p>
+   <ul>
+      <li>A <code>timezone.js</code> file, which includes examples using the <a href="https://github.com/spencermountain/spacetime">spacetime</a> and <a href="https://github.com/spencermountain/spacetime-informal/">spacetime-informal</a> libraries. You may find it useful as a reference, or may want to copy the helper functions into your own code.</li>
+      <li><code>package.json</code> and <code>package-lock.json</code> files for testing out the <code>timezone.js</code> file. You can run the tests with <code>npm start</code> on the command line. Based on how the framework you pick supports dependencies, you may be able to start with these files for your own package management. Alternatively, you may need to copy the versions of spacetime and spacetime-informal into the dependencies of another <code>package.json</code> file.</li>
+      <li>A <code>questions.docx</code> file with some short essay questions for you to explain and reflect on how the framework you used supports interface implementation.</li>
+      <li>A <code>readme.txt</code> file to explain your implementation and anything else we should know.</li>
+   </ul>
+   <p>You will also need to create a screen or video recording of your app, <code>demo.mp4</code> (or some other reasonable file format such as <code>.mov</code> or <code>.avi</code>).
+   <h3>Working in pairs</h3>
+   <p>Each framework implements sharing codebases slightly differently. If you are developing command line, one of you can set up your GitHub repository to be shared and <a href="https://help.github.com/articles/inviting-collaborators-to-a-personal-repository/">add the other as a collaborator</a>. However, some frameworks will rely on their own web editors, but should enable adding other accounts as collaborators.</p>
+   <p>Given the varying ways in which editors support collaboration and the overall goal of this assignment, we strongly suggest that you complete this assignment via pair programming, alternating roles as drivers and navigators.</p>
+   <h2>Framework options</h2>
+   <p>In this assignment, you may choose one of three development frameworks to implement your time zone converter: <a href="https://dev.fitbit.com/">Fitbit (watch)</a>, <a href="https://developer.amazon.com/en-US/alexa">Alexa (voice assistant)</a>, or <a href="https://aframe.io/">A-Frame (AR/VR)</a>. You do not need to implement your converter on the actual devices being designed. You can complete this assignment using either the simulator the framework provides or your browser (depending on the framework). However, you may run your solution on the device for extra credit. You may also implement more than one development framework for extra credit.</p>
+   <p>This assignment intends to demonstrate how the skills you have built up for implementing interfaces can translate to new platforms and devices. Moreso than previous assignments, you will need to leverage the documentation of the frameworks in order to complete this assignment. We are not covering the technical details of any of these frameworks in lecture. Below we have added a few suggestions for setting up and getting started with each framework.</p>
+   <h3>Fitbit setup and advice</h3>
+   <p class="tbd">TBD. Some advice about components which might be useful for supporting the interaction, or things which we explicitly do not need to support.</p>
+   <h3>Alexa setup and advice</h3>
+   <p class="tbd">TBD. Some advice about components which might be useful for supporting the interaction, or things which we explicitly do not need to support.</p>
+   <h3>A-Frame setup and advice</h3>
+   <p class="tbd">TBD. Some advice about components which might be useful for supporting the interaction, or things which we explicitly do not need to support.</p>
+   <h2>Requirements</h2>
+   <p>Your time zone converter is required to support the following functionality:</p>
+   <ul>
+      <li>Display (or speak) the current time in the local time zone.</li>
+      <li>Convert the current time in the local time zone to another time zone.</li>
+      <li>Convert an arbitrary time in the local time zone to another time zone.</li>
+   </ul>
+   <p>This assignment is foremostly about implementing the functionality and reflecting on how the framework you selected supports interface implementation. You will not be graded on the design of your app.</p>
+   <h3>Displaying & converting time</h3>
+   <p>Because the goal of this assignment is to try out a new framework and reflect on how it supports interface implementation, it is okay for your solution to be a <strong>proof of concept</strong>. You do not need to rigorously test every hour/minute, every time zone, etc. If it's easier, your solution can ignore the existence of the <a href="https://en.wikipedia.org/wiki/International_Date_Line">International Date Line</a>. You can display the time in another time zone and not display the date. But, if you find it easier, you can choose to display the date. It is similarly fine if your display does not update in real time. You could make all calculations based on the time you booted up the app, but similarly, if you find it easier, you can update in real time. You do not need to support conversion to all time zones. Feel free to pick ~3 which are personally meaningful to you. But again, you can support all time zones if you'd like. The <code>timezone.js</code> file provides functionality intended to help create and convert times.</p>
+   <h3>Readme</h3>
+   <p>Please update your <code>readme.txt</code> with how long the assignment took, who or what online resources you consulted with, any bonus features you added, and anything else we should know. If the assignment was completed in a pair, the readme should list names/emails/ids of both students. Only one submission needs to be made, however.</p>
+   <h3>Demo</h3>
+   <p>Please record a demo video (<code>demo.mp4</code> or a different file extension) which shows the demo features of your app: displaying/speaking the current local time, converting the current local time to another time zone, and converting an arbitrary local time to another time zone. You may record the device simulator; your demo does not need to be running on the actual device. We would prefer a single video walking through each of the different parts of your app, but you may instead find it useful to make separate videos for different parts. If you do record multiple videos, give each a descriptive file name (like <code>demo_display.mp4</code>). This video does not need to be polished. It is intended to help us understand the interface you have designed and developed and how it operates, but it's not intended to be a marketing pitch. We expect most videos can be 1 minute or less.</p>
+   <h3>Questions</h3>
+   <p>Please update the <code>questions.docx</code> document with answers to each of the questions about how the framework you have implemented supports interactivity. These questions are intended for you to reflect on how the frameworks support some of the more conceptual design and implementation principles we have discussed in this course. We expect answers to be a paragraph, max two paragraphs per question. A few of the questions posed have correct answers, but the questions are mostly intended to trigger consideration of how the framework you used supports implementation.</p>
+   <h3>Submitting</h3>
+   <p>To submit, zip your repository and upload it to <a href="https://canvas.eee.uci.edu/courses/32801/assignments/641430">Canvas</a>. <span class="tbd">What files need to be uploaded for each framework?</span> Any late uploads are subject to the course's <a href="/syllabus#duedates">late policy</a>.</p>
+   <p>
+      Because many people will complete this assignment in pairs, you are also required to complete a short evaluation on Canvas signifying how work was distributed. The partner evaluation is available at 
+      <a href="https://canvas.eee.uci.edu/courses/32801/quizzes/151377">https://canvas.eee.uci.edu/courses/32801/quizzes/151377</a>.
+   </p>
+   <h3>Grading</h3>
+   <p>This assignment will be graded on a scale of 10 points, broken down as follows:</p>
+   <ul>
+      <li>The ability to display or speak the current local time (1 point)</li>
+      <li>The ability to convert the current local time to another time zone (2 points)</li>
+      <li>The ability to convert an arbitrary time to another time zone (2 points)</li>
+      <li>A demo video demonstrating these features (1 point)</li>
+      <li>Answers to questions about how the framework supports implementation (4 points)</li>
+   </ul>
+   <p>There are a few ways to receive extra credit on this assignment, but we will cap the maximum grade for this assignment at 12/10. You can receive extra credit for implementing more than one framework, getting your solution running natively on a device, or designing a compelling app.</p>
+   <p>You may implement a second framework for 1 point of extra credit, or all three frameworks for 2 extra credit points. If you decide to implement more than one framework, indicate this in your <code>readme.txt</code>. <span class="tbd">Something about how to indicate what code belongs to which one.</span> You can pick one framework to answer the essay questions in <code>questions.docx</code>.</p>
+   <p>You can receive 1 point of extra credit for running your solution natively on the device it is designed for. The framework's documentation provides instructions for running your solution natively. Because this feature is extra credit, the course staff may not be able to provide assistance. We recognize that this extra credit option requires owning a capable device, and do not endorse purchasing a new device solely to achieve the extra credit point. As an option, some of the frameworks enable deployment to phones. Please create a separate demo video for running natively (perhaps named <code>demo_device.mp4</code> or similar) and indicate this option in your <code>readme.txt</code>.</p>
+   <p>Similar to the spirit of the assignment portion in A1, we will additionally give one point of extra credit to the most compelling apps submitted (about 10% of submissions). Because design is not part of the standard rubric for this assignment, if you have put extra effort to try to make your app compelling, please indicate what you have done to do so in your <code>readme.txt</code>.</p>
+   <p>The course staff reserves the right to redistribute, penalize, or award bonus points to one or both students in situations where work was not distributed equitably among partnerships.</p>
+   <p>In prior courses, you've been asked to follow good principles for indentation, naming variables, commenting, etc. We expect you to do the same in this course, but aim to avoid being draconian in our enforcement of these principles. Egregiously poor formatting, completely uncommented code, etc. may incur a small penalty (e.g., -1 point), but we expect this to be rarely applied.</p>
+</main>
