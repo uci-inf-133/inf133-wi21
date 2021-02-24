@@ -301,7 +301,8 @@
 			"type": "lecture",
 			"title": "Mobile Design Principles & SASS",
 			"link": "assets/lectures/02_24_21-mobile_sass.pdf",
-			"demo": "assets/demos/02_24_21-mobile_sass.zip"
+			"demo": "assets/demos/02_24_21-mobile_sass.zip",
+			"recording": "https://uci.zoom.us/rec/share/yIq_UDXjF1rJ15IZQPPJxzxNfVYSm_BMjWeff1WaVUENAYNGXEGQt-25rHF4ZbKY.7OwPDqkNhw3DFb76?startTime=1614192929000"
 		},
 		{
 			"date": "2021-02-26",
@@ -311,7 +312,9 @@
 		{
 			"date": "2021-03-01",
 			"type": "lecture",
-			"title": "Device Resources & Sensors"
+			"title": "Device Resources & Sensors",
+			"link": "assets/lectures/03_01_21-device_resources.pdf",
+			"demo": "assets/demos/03_01_21-device_resources.zip"
 		},
 		{
 			"date": "2021-03-01",
