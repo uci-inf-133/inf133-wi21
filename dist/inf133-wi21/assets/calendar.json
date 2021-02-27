@@ -307,7 +307,10 @@
 		{
 			"date": "2021-02-26",
 			"type": "discussion",
-			"title": "Ionic Demo (Lucas)"
+			"title": "Ionic Demo (Lucas)",
+			"link": "assets/discussions/02_26_21-ionic.pdf",
+			"demo": "assets/demos/02_26_21-ionic.zip",
+			"recording": "https://uci.zoom.us/rec/share/YKAaVtYAD2JQM_J4Ut2LtAd0n8RwvzMawMoUQ7-JfFUcTa3JHYiFTZ8PU_UndvdU.-tIgfkOQC1-Ixoa7?startTime=1614380511000"
 		},
 		{
 			"date": "2021-03-01",
