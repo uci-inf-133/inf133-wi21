@@ -317,7 +317,8 @@
 			"type": "lecture",
 			"title": "Device Resources & Sensors",
 			"link": "assets/lectures/03_01_21-device_resources.pdf",
-			"demo": "assets/demos/03_01_21-device_resources.zip"
+			"demo": "assets/demos/03_01_21-device_resources.zip",
+			"recording": "https://uci.zoom.us/rec/share/i0KAn8lRRa8KQCUHuFmqNsodOwolElT8DwmutTcrWpaR6-FVrDlbsopvcmPVVGn0.PKV4M3qxJ-Op2xf-?startTime=1614624621000"
 		},
 		{
 			"date": "2021-03-01",
@@ -370,7 +371,7 @@
 		{
 			"date": "2021-03-12",
 			"type": "discussion",
-			"title": "React Demo (Lucas)"
+			"title": "Jo Office Hours"
 		},
 		{
 			"date": "2021-03-16",
