@@ -367,12 +367,22 @@
 		{
 			"date": "2021-03-10",
 			"type": "lecture",
-			"title": "Wrap-up"
+			"title": "Wrap-up",
+			"link": "assets/lectures/03_10_21-wrap_up.pdf"
 		},
 		{
 			"date": "2021-03-12",
 			"type": "discussion",
 			"title": "Jo Office Hours"
+		},
+		{
+			"date": "2021-03-15",
+			"type": "officehours_daniel"
+		},
+		{
+			"date": "2021-03-16",
+			"type": "officehours_ta",
+			"title": "Lucas Office Hours"
 		},
 		{
 			"date": "2021-03-16",
